@@ -72,7 +72,9 @@ def meet(materia, k):
 
 
 # Cambio directory x non specificare il percorso dei file
-os.chdir(r"C:\avvio-pc\lezioni")
+os.chdir(os.getcwd())
+
+os.startfile("stop.bat")
 
 # File JSON con link
 classi = open("meet-link.json", "r").read()
@@ -103,7 +105,13 @@ ora9 = foglio1.cell(row=10, column=1).value
 # Liste con ore, giorni e celle
 lista_ore = [ora1, ora2, ora3, ora4, ora5, ora6, ora7, ora8, ora9]
 lista_caselle = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-lista_giorni = [lun, mar, mer, gio, ven,]
+lista_giorni = [
+    lun,
+    mar,
+    mer,
+    gio,
+    ven,
+]
 
 # Animazione
 animazione = [
