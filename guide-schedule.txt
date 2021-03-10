@@ -1,0 +1,13 @@
+To set the name and time of the Meet click "CHANGE SCHEDULE", it will open an Excel file.
+
+Set the Meet time in the column with the hours.
+
+Set the Meet name in the corrispondent cell (day column, hour row).
+
+If you leave the cells empty nothing will be opened.
+
+This app is made for the students, so the days are form Moday to Friday.
+
+You can't add rows or columns.
+
+That's all!
